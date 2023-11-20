@@ -18,13 +18,12 @@ else:
 
 
 #Q2
-tuition = 10000  
-x = 0.05  
+tuition = 10000    
 years = 10  
 i = 0  
 current_year = 1
 while(current_year <= years):
-    tuition = tuition * (1 + x)  
+    tuition = tuition+(tuition * 0.05)  
     print("Tuition in year "+str(current_year)+": "+ "$"+str(tuition))
     
     
